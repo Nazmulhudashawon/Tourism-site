@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Cox's Bazar The Never Ending Beach",
+        "price": "3000 $",
+        "duration": "3 Days 2 Nights",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Ultimate Nepal experience",
+        "price": "15000 $",
+        "duration": "3 Days",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Simply Maldives",
+        "price": "21000 $",
+        "duration": "3 Days",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    },
+    {
+        "id": 4,
+        "name": "6 Days of Glittering Nepal",
+        "price": "4000 $",
+        "duration": "6 Days",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sajek velly The kingdom of cloud",
+        "price": "1000 $",
+        "duration": "3 Days 2 Nights",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    },
+    {
+        "id": 6,
+        "name": "5 Nights & 6 Days Umrah",
+        "price": "30000 $",
+        "duration": "6 Days",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/10/e2/f8/43/longest-sea-beach-in.jpg"
+    }
+   
+]
