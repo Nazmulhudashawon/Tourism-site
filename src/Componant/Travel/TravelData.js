@@ -1,14 +1,13 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 import './TravelData.css'
 
-import { useHistory } from 'react-router';
+
 import { Link } from 'react-router-dom';
 
 const TravelData = (props) => {
     
     const {_id, name, img, duration, price } = props.Travel;
-    
     
 
     return (

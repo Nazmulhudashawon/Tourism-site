@@ -17,8 +17,8 @@ const TourForm = () => {
         const name =user.displayName;
         const email=user.email;
         const phone=phoneref.current.value;
-        const location=locationref.current.value;
-        const newuser={name:name, email:email,location:location, phone:phone}
+        const packagename=locationref.current.value;
+        const newuser={name:name, email:email, packagename:packagename, phone:phone}
         fetch('https://frightful-cheateau-06054.herokuapp.com/users', {
       method:'post',
       headers: {
@@ -32,6 +32,7 @@ const TourForm = () => {
         e.preventDefault();
 
     }
+    
   
     return (
        <div className="tour">
@@ -107,12 +108,10 @@ const TourForm = () => {
 					
             </div>
 
-           
-
             {errors.exampleRequired && <span>This field is required</span>}
             </div>
           
-            <button className="btn btn-warning" type="submit" value="Proceed To Checkout"> Proceed To Checkout</button> 
+            <button className="btn btn-warning" type="submit" value="Proceed To Checkout">Proceed To Checkout</button> 
            
         </form>
            </div>

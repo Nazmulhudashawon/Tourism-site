@@ -22,7 +22,8 @@ const Hotel = () => {
        min="2021-11-01" max="2022-12-31"/>
             </div>
           </div>
-            <button className="btn btn-warning">Search Hotel</button>        </div>
+            <button className="btn btn-warning">Search Hotel</button>     
+               </div>
     );
 };
 
