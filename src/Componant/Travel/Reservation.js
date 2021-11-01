@@ -9,7 +9,7 @@ const Reservation = (props) => {
    const handledelete=(id)=>{
     const proceed=window.confirm ('are you sure want to Cancel the tour')
     if(proceed){
-       const url=`http://localhost:5000/users/${id}`;
+       const url=`https://frightful-cheateau-06054.herokuapp.com/${id}`;
        fetch(url, {
           method:'DELETE'
       }).then(res=>res.json()).then(data=>{if (data.deletedCount > 0){

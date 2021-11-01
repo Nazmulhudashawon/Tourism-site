@@ -19,7 +19,7 @@ const TourForm = () => {
         const phone=phoneref.current.value;
         const location=locationref.current.value;
         const newuser={name:name, email:email,location:location, phone:phone}
-        fetch('http://localhost:5000/users', {
+        fetch('https://frightful-cheateau-06054.herokuapp.com/users', {
       method:'post',
       headers: {
         'Content-Type': 'application/json'

@@ -4,7 +4,7 @@ import TravelData from './TravelData';
 const Travel = () => {
     const [Travels, setTravels] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services').then(res => res.json()).then(data => setTravels(data) )
+        fetch('https://frightful-cheateau-06054.herokuapp.com/services').then(res => res.json()).then(data => setTravels(data) )
         
 
     }, [])

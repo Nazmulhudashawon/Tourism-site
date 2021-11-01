@@ -3,7 +3,7 @@ import Reservation from './Reservation';
 const Reviewbooking = () => {
     const [user, setuser]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/users/').then(res=>res.json()).then(data=>setuser(data))
+        fetch('https://frightful-cheateau-06054.herokuapp.com/users/').then(res=>res.json()).then(data=>setuser(data))
     },[]);
 
     
