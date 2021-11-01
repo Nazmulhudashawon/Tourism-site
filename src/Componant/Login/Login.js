@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Login.css'
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import { getAuth, GoogleAuthProvider, signInWithEmailAndPassword, } from "firebase/auth";
-import fireabaseinitialize from '../Firebase/Firebase.init';
+import { getAuth, signInWithEmailAndPassword, } from "firebase/auth";
+import fireabaseinitialize from '../Firebase/firebase.init';
 
 
 fireabaseinitialize();
@@ -21,7 +21,6 @@ const Login = () => {
     }
 
     //email password login
-
 
     const [email, setemail] = useState('');
     const [password, setpassword] = useState('');

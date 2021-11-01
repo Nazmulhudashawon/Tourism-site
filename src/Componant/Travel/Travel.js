@@ -12,7 +12,7 @@ const Travel = () => {
     return (
         <div className="mt-4 ">
             <h2>Ours Special Travels</h2>
-            <div class="row">
+            <div class="row mx-4">
                 {
                     Travels.map(Travel => <TravelData Travel={Travel} key={Travel.key}></TravelData>)
                 }

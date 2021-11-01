@@ -1,11 +1,15 @@
 
 import React from 'react';
-import { Redirect, Route } from 'react-router';
+import { Redirect, Route, useHistory, useLocation } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
 const PrivateRoute = ({ children, ...rest }) => {
     // const {children, ...rest}=props;
-    const { user } = useAuth();
+    const { user, loading } = useAuth();
+    if (loading) return 'loading';
+    // const location = useLocation();
+    // const history = useHistory();
+    // const redirect_uri = location.state?.from || "/home";
     return (
         <Route {...rest}
             render={({ location }) =>
@@ -13,10 +17,14 @@ const PrivateRoute = ({ children, ...rest }) => {
                     pathname: "/login",
                     state: { from: location }
 
-                }}></Redirect>
+                }}>
+                   
+                </Redirect>
+                
             }>
 
         </Route>
+        
     );
 };
 

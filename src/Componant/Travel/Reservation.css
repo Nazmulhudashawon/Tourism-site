@@ -1,0 +1,8 @@
+.table tr{
+    border: 1px solid black ;
+    padding: 0;
+}
+.table{
+    background-color: rgb(162, 196, 197);
+    margin: 5px;
+}

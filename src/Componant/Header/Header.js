@@ -19,6 +19,7 @@ const Header = () => {
                             <button className="button">{user.displayName}</button>
 
                             <Link className="link" to="/">Home</Link>
+                            { user.email&& <Link to="/booking"><button className=" button">My Reservation</button></Link>}
                             <Link className="link" to="/ask">Hotel</Link>
                             <Link className="link" to="/">Holiday</Link>
                             <Link className="link" to="/">visa</Link>
@@ -26,12 +27,14 @@ const Header = () => {
 
                             {
                                 user.email ?
-                                    <button className=" button" onClick={logout}>logout</button>
+                                    <button className=" button" onClick={logout}>logout</button> 
                                     :
                                     <Link className="link" to="/login">Login</Link>}
 
 
                             {!user.email && <Link className="link" to="/signup">Create Account</Link>}
+
+                           
 
                         </Nav>
                     </Navbar.Collapse>

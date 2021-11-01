@@ -3,15 +3,13 @@ import React from 'react';
 import './TravelData.css'
 
 import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const TravelData = (props) => {
-    const history = useHistory()
-    const { name, img, duration, price } = props.Travel;
-    const handlebtn = () => {
-        // history.push("./AppointForm");
-
-
-    }
+    
+    const {_id, name, img, duration, price } = props.Travel;
+    
+    
 
     return (
 
@@ -20,10 +18,14 @@ const TravelData = (props) => {
                 <img src={img} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p className="card-title">{duration}</p>
-                    <p className="card-title">{price}</p>
+                   <div className="body">
+                   <p>Package: {duration} </p>
+                    <p>  Cost :{price}/person</p>
+                   </div>
                     
-                    <button onClick={handlebtn} className="btn btn-primary">Book Now</button>
+                    <Link to={`/tourform/${_id}`}>
+                      <button className="btn btn-primary">  Book Now</button>
+                    </Link>
                 </div>
             </div>
         </div>

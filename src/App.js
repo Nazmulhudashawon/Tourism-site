@@ -14,6 +14,11 @@ import AuthProvider from './Context/AuthProvider';
 import Aboutus from './Componant/Aboutus/Aboutus';
 
 import NotFound from './Componant/Page Not Found/NotFound';
+import TourForm from './Componant/Travel/TourForm/TourForm';
+import PrivateRoute from './Componant/PrivateRoute/PrivateRoute';
+import Reviewbooking from './Componant/Travel/Reviewbooking';
+
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +42,13 @@ function App() {
             <Route exact path="/signup">
               <Signup></Signup>
             </Route>
+           
+            <PrivateRoute exact path="/tourform/:id">
+              <TourForm></TourForm>
+            </PrivateRoute>
+            <PrivateRoute exact path="/booking">
+              <Reviewbooking></Reviewbooking>
+            </PrivateRoute>
             
             <Route exact path="*">
               <NotFound></NotFound>

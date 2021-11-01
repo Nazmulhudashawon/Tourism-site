@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import fireabaseinitialize from '../Firebase/Firebase.init';
+import fireabaseinitialize from '../Firebase/firebase.init';
 import { useHistory, useLocation } from "react-router-dom";
 import useAuth from '../../hooks/useAuth';
 
