@@ -9,10 +9,10 @@ const Reviewbooking = () => {
     
     return (
         <div>
-            {/* { user.length > 0 ? congratulations your tour confirmation is success : No tour plan is selected } */}
-            <ul>
+            <h2>Your {user.length} Tour Booking is success</h2>
+                    
                { user.map(users => <Reservation key={users._id} users={users}></Reservation>)}
-            </ul>
+            
         </div>
     );
 };

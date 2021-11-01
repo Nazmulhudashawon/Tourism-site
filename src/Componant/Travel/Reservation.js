@@ -19,8 +19,12 @@ const Reservation = (props) => {
       }} )
     }      
 }
+
+
     return (
         <div>
+        
+
           <table className="table">
               <tr>
                   <td> Name: </td>
