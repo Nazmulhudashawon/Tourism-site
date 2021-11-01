@@ -1,0 +1,28 @@
+.airlines{
+    background-color: cadetblue;
+    padding: 50px ;
+    margin-top: 20px;
+}
+.air
+{
+display: flex;
+flex-direction: row;
+margin:20px 10px;
+align-items: center;
+justify-content: center;
+
+
+}
+.air div{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    padding-top:10px ;
+    background-color: blanchedalmond;
+    
+
+}
+.air div:hover{
+    box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
+}

@@ -29,7 +29,7 @@ const Banner = () => {
             <Carousel.Item interval={3000}>
                 <img
                     className="d-block w-100"
-                    src="https://www.worldtrips.com/-/media/Project/TMHCC-MIS/HCCMISdotcom/Blog-Posts/travel/international-traveler-photographing-hot-air-balloons-over-mountainsjpg.jpg?h=350&w=674&hash=CE3BA83FF07D451913ADB0AC355F895A"
+                    src="https://www.kstdc.co/wp-content/themes/kstdc/images/inbg.jpg"
                     alt="Third slide"
                 />
                 <Carousel.Caption>
