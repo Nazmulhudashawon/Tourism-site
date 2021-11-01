@@ -55,7 +55,7 @@ const Reservation = (props) => {
                   <td>{date2} </td>
               </tr>
           </table>
-          <button className="btn btn-danger" onClick={()=>handledelete(_id)}>Cancel Tour</button>
+          <button className="btn btn-danger m-4" onClick={()=>handledelete(_id)}>Cancel Tour</button>
         </div>
     );
 };

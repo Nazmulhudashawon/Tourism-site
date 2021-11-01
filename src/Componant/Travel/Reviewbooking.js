@@ -9,7 +9,7 @@ const Reviewbooking = () => {
     
     return (
         <div>
-            <h2>Your {user.length} Tour Booking is success</h2>
+            <h2 className="m-4">Your {user.length} Tour Booking is success</h2>
                     
                { user.map(users => <Reservation key={users._id} users={users}></Reservation>)}
             

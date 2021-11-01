@@ -10,11 +10,12 @@
 .header{
     line-height: 4rem;
     display: flex;
-    background-color: #222927;
+    background-color: #374f55;
     margin:auto;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1px;
+    box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
     
 }
 h4{
@@ -30,7 +31,7 @@ h4{
     font-size: 18px;
     text-align:center;
     padding-right: 2rem;
-    background-color: #222927;
+    background-color: #374f55;
     border: 0;
 
 }

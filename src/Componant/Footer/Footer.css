@@ -1,6 +1,6 @@
 .footer{
     
-    background-color:#3b3f35;
+    background-color:#374f55;
     /* height: 120px; */
     padding: 20px;
     color: white;
@@ -8,6 +8,7 @@
     bottom: 0;
     width: 100%;
     height: 8rem; 
+    box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
     
 }
 .icon{
