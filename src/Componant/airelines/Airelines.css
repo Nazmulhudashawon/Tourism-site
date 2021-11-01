@@ -4,19 +4,22 @@
     margin-top: 20px;
     box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
     border-radius: 10px;
-    margin: 20px 45px;
+    /* margin: 20px 100px 10px 20px; */
+    width: 100%;
    
 }
 .air
 {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 margin:20px 10px;
 align-items: center;
 justify-content: center;
 border-radius: 10px;
 transition: transform .5s ease;
     overflow: hidden;
+    width: 100%;
 
 
 
