@@ -24,7 +24,7 @@ const TravelData = (props) => {
                    </div>
                     
                     <Link to={`/tourform/${_id}`}>
-                      <button className="btn btn-primary">  Book Now</button>
+                      <button className="btn btn-primary"> Select Offer</button>
                     </Link>
                 </div>
             </div>

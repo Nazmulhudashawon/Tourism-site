@@ -20,9 +20,8 @@ const Header = () => {
 
                             <Link className="link" to="/">Home</Link>
                             { user.email&& <Link to="/booking"><button className=" button">My Reservation</button></Link>}
-                            <Link className="link" to="/ask">Hotel</Link>
-                            <Link className="link" to="/">Holiday</Link>
-                            <Link className="link" to="/">visa</Link>
+                            <Link className="link" to="/hotel">Hotel</Link>
+                            <Link className="link" to="/visa">visa</Link>
                             <Link className="link" to="/aboutus">About</Link>
 
                             {

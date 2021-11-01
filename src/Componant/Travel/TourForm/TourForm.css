@@ -1,25 +1,17 @@
-.reserve-form{
-    padding: 30px 100px;
-    border:1px solid rgb(219, 209, 61);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.904) 0px 5px 15px;
-    background-color: rgb(238, 238, 238);
+.tour{
+    background-color: rgb(179, 197, 196);
+    padding: 20px;
+    height: 500px;
+
 }
-.reserve-form label{
-    color:black;
-    padding-right: 20px;
-    align-items: flex-start;
-    text-align: left;
-    padding: 5px;
-    
-}
-.reserve-form h2{
-    color: black;
-    margin-bottom: 10px;
-}
-.reserve-form input{
-   margin-bottom: 50px;
-    margin-bottom: 5px;
-    width: 300px;
-    
+.tour-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 0;
+    margin: 50px 0;
+    border-radius: 10px;
+
 }

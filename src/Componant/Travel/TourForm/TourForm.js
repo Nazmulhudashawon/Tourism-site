@@ -33,40 +33,49 @@ const TourForm = () => {
 
     }
   
-
-    
     return (
-       <div className="in-form">
-           <div className="reserve-form">
+       <div className="tour">
+           
            <form onSubmit={handlecheckout} >
             <h2>Reservation Form</h2>
             <p>Tour Code: {id}</p>
 
+            <div className="tour-content">
+              <div>
+              <label>Name</label>
             <input defaultValue={user.displayName} {...register(" Name") }  />
-            <br />
+            </div>
             
-            <input defaultValue={user.email}  {...register("email")}  />
+            
+            <div>
+            <label>Email</label>
+             <input className="w-100" defaultValue={user.email}  {...register("email")}  /></div>
+             <div>
+               <label> Contact No</label>
+           <input ref={phoneref}  placeholder="Phone" />
+           </div>
+          
+            
+            <div><label >Tour Package Name</label>
             <br />
-            <label >Tour Location</label>
-            <br />
-            <input ref={locationref}   />
+            <input ref={locationref}   /></div>
 
-            <br />
-            <label >Arrival Date</label>
-            <br />
-            
+           
+       <div>  
+            <label >Arrival Date</label>    
             <input type="date" id="start" name="trip-start"
        value="2021-11-15"
        min="2021-11-01" max="2022-12-31"/>
-            <br />
-            <label >Departure Date</label>
-            <br />
-            
+          </div>
+
+         <div>
+         <label >Departure Date</label>
             <input type="date" id="end" name="trip-end"
-       value="2021-11-20"
-       min="2021-11-20" max="2022-12-31"/>
-            <br />
-            <label>Person</label>
+          value="2021-11-20"
+          min="2021-11-20" max="2022-12-31"/>
+         </div>
+           <div>
+           <label>Person</label>
             <select name="num_adults" id="num_adults">
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -79,7 +88,9 @@ const TourForm = () => {
 						<option value="9">9</option>
 						<option value="10">10</option>
 					</select>
-					<br />
+           </div>
+					
+            <div>
             <label>Total Room</label>
             <select name="num_adults" id="num_adults">
 						<option value="1">1</option>
@@ -93,18 +104,19 @@ const TourForm = () => {
 						<option value="9">9</option>
 						<option value="10">10</option>
 					</select>
-					<br />
+					
+            </div>
 
-            <input ref={phoneref}  placeholder="Phone" />
-            <br />
+           
 
             {errors.exampleRequired && <span>This field is required</span>}
+            </div>
           
             <button className="btn btn-warning" type="submit" value="Proceed To Checkout"> Proceed To Checkout</button> 
            
         </form>
            </div>
-       </div>
+       
     );
 };
 

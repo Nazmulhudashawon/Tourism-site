@@ -31,12 +31,20 @@ const Reservation = (props) => {
                   <td>{email}</td>
               </tr>
               <tr>
-                  <td>  location: </td>
+                  <td>  Package Name: </td>
                   <td>{location}</td>
               </tr>
               <tr>
                   <td> Phone : </td>
                   <td>{phone} </td>
+              </tr>
+              <tr>
+                  <td> Arrival Date : </td>
+                  <td>{date1} </td>
+              </tr>
+              <tr>
+                  <td> Departure Date : </td>
+                  <td>{date2} </td>
               </tr>
           </table>
           <button className="btn btn-danger" onClick={()=>handledelete(_id)}>Cancel Tour</button>
