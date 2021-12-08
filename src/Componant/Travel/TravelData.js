@@ -12,7 +12,7 @@ const TravelData = (props) => {
 
     return (
 
-        <div className="col-md-4 col-sm-6 col-12">
+        <div className="col-md-6 col-lg-4 col-sm-6 col-xs-12 maindiv" >
             <div className="Travelscard">
                 <img src={img} alt="..." />
                 <div className="card-body">

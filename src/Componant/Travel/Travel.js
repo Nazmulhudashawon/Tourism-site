@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import TravelData from './TravelData';
 
 const Travel = () => {
@@ -12,11 +13,13 @@ const Travel = () => {
     return (
         <div className="mt-4 ">
             <h2>Ours Special Travels</h2>
-            <div class="row mx-4">
+           <Container>
+           <div class="row" >
                 {
                     Travels.map(Travel => <TravelData Travel={Travel} key={Travel.key}></TravelData>)
                 }
             </div>
+           </Container>
 
         </div>
     );

@@ -37,7 +37,7 @@ const TourForm = () => {
     return (
        <div className="tour">
            
-           <form onSubmit={handlecheckout} >
+           <form onSubmit={handlecheckout} className="form" >
             <h2>Reservation Form</h2>
             <p>Tour Code: {id}</p>
 

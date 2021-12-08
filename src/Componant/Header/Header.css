@@ -1,40 +1,51 @@
-.link{
-    text-decoration: none;
-    color: rgb(240, 240, 240);
-    font-weight: bold;
+.menubar a.nav-link{
+    margin-right: 10px;
+    /* color: rgb(240, 240, 240); */
     font-size: 18px;
-    text-align:center;
-    padding-right: 2rem;
+    /* text-align:center; */
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.menubar nav{
+    color: white;
+    overflow: hidden;
 
 }
-.header{
-    line-height: 4rem;
-    display: flex;
-    background-color: #374f55;
-    margin:auto;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1px;
-    box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
-    
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    overflow: hidden;
+    display: block;
+
+
 }
+
 h4{
-    margin-left: 3rem;
+    margin-left: 2rem;
     color:white;
 }
-.link:hover{
-    color: rgb(209, 85, 122);
-}
+
 .button{
     color: rgb(240, 240, 240);
-    font-weight: bold;
     font-size: 18px;
     text-align:center;
-    padding-right: 2rem;
+    /* padding-right: 1rem; */
     background-color: #374f55;
     border: 0;
 
 }
-.button:hover{
-    color: rgb(85, 104, 209);
+.menubar{
+    margin-right:2rem ;
+    overflow-y: hidden;
+  float: left;
+  position: absolute;
+
+}
+.menubar a.nav-link:hover{
+  border-bottom: 2px solid white;
+  overflow: hidden;
+    display: block;
+    float: left;
+
+
 }
