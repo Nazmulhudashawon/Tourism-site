@@ -1,0 +1,57 @@
+.me-auto a.nav-link{
+    margin-right: 10px;
+    /* color: rgb(240, 240, 240); */
+    font-size: 18px;
+    /* text-align:center; */
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.me-auto nav{
+    color: white;
+    overflow: hidden;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    overflow: hidden;
+    display: block;
+
+
+}
+
+h4{
+    margin-left: 2rem;
+    color:white;
+}
+
+.button{
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    text-align:center;
+    /* padding-right: 1rem; */
+    background-color: #374f55;
+    border: 0;
+
+}
+.menubar{
+    margin-right:2rem ;
+    overflow-y: hidden;
+  float: left;
+  position: absolute;
+
+}
+.me-auto a.nav-link:hover{
+  border-bottom: 2px solid white;
+  overflow: hidden;
+    display: block;
+    float: left;
+}
+@media only screen and (min-width: 700px) {
+    .me-auto {
+        margin-right:2rem ;
+        overflow-y: hidden;
+      float: left;
+      position: absolute;
+    }
+  }

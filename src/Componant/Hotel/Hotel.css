@@ -1,0 +1,18 @@
+.hotel-content{
+    display: flex;
+    flex-direction: column;
+    padding:20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.hotel input{
+    margin:10px 20px;
+    /* padding: 0; */
+}
+.hotel{
+    padding: 50px;
+    
+}
+.hotel h2{
+    color: rgb(0, 0, 0);
+}

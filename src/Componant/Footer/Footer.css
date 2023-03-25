@@ -1,0 +1,20 @@
+.footer{
+    
+    background-color:#374f55;
+    /* height: 120px; */
+    /* padding: 5px 20px 10px 20px; */
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem; 
+    box-shadow: rgba(9, 10, 10, 0.904) 0px 5px 15px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

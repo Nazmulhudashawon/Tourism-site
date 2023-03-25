@@ -1,0 +1,9 @@
+.carousel img{
+    height: 550px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .carousel img {
+        height: 150px;
+    }
+  }

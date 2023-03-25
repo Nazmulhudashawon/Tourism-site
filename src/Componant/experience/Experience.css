@@ -1,0 +1,19 @@
+.experienceCard{
+    height: 220px;
+width: 350px;
+/* background-color: rgba(220, 220, 220, 0.288); */
+margin: 20px -10px ;
+border-radius: 20px;
+border:1px solid black;
+}
+.card-body img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 1px solid black;
+}
+.card-body img:hover{
+    
+    transform: scale(1.1);
+    overflow: hidden;
+}

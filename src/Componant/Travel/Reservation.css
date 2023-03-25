@@ -1,0 +1,10 @@
+.table tr{
+    border: 1px solid black ;
+    padding: 0;
+    width: 50px;
+}
+.table{
+    background-color: rgb(253, 253, 253);
+    margin: 40px -10px;
+    
+}

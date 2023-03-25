@@ -1,0 +1,42 @@
+.Travelscard{
+    height: 450px;
+    /* width: 380px;  */
+    background-color: rgb(185, 223, 219);
+    /* margin: 40px 10px ; */
+    transition: transform .5s ease;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;   
+}
+.Travelscard img{
+    height: 280px;
+    width: 380px;
+    transition: transform .5s ease;
+    overflow: hidden;
+    
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Travelscard:hover{
+    
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+/* @media screen and (min-width: 1400px) {
+    .Travelscard {
+      margin: 40px ;
+    }
+  } */

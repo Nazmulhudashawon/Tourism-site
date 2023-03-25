@@ -1,0 +1,18 @@
+.tour{
+    background-color: rgb(179, 197, 196);
+    padding: 10px;
+    height: 500px;
+
+}
+.tour-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 50px 0;
+    margin: 50px 0;
+    border-radius: 10px;
+ 
+
+}
