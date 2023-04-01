@@ -1,14 +1,6 @@
 
 const firebaseConfig = {
 
-  // apiKey: "AIzaSyC65FrAsJ3lrdkhUCCyYlN7U0P813WyLeQ",
-  // authDomain: "toursite-7e3cd.firebaseapp.com",
-  // databaseURL: "https://toursite-7e3cd-default-rtdb.asia-southeast1.firebasedatabase.app",
-  // projectId: "toursite-7e3cd",
-  // storageBucket: "toursite-7e3cd.appspot.com",
-  // messagingSenderId: "274742471981",
-  // appId: "1:274742471981:web:f5ab03801ad50e6f9237a4"
-
   apiKey: "AIzaSyA1HvKbb8EULK9-wx1qAYTcnglupxeTSBM",
   authDomain: "flyair-e800d.firebaseapp.com",
   projectId: "flyair-e800d",
