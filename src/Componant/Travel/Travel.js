@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import TravelData from './TravelData';
+import { useQuery } from 'react-query';
+import Query from './Query';
 
-const Travel = () => {
-    const [Travels, setTravels] = useState([]);
-    useEffect(() => {
-        fetch('https://flyair.onrender.com/services').then(res => res.json()).then(data => setTravels(data) )
-        
-
-    }, [])
+export default function Travel ({services}) {
+    const {data} = useQuery("services",() => Query());
+   
     
     return (
         <div className="mt-4 ">
@@ -16,7 +14,7 @@ const Travel = () => {
            
            <div class="row" >
                 {
-                    Travels.map(Travel => <TravelData Travel={Travel} key={Travel.key}></TravelData>)
+                    data?.map(Travel => <TravelData Travel={Travel} key={Travel.key}></TravelData>)
                 }
             </div>
            
@@ -25,4 +23,3 @@ const Travel = () => {
     );
 };
 
-export default Travel;
